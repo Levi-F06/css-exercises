@@ -1,3 +1,7 @@
+/* They did this different where instead of giving content 8px top and bottom margin
+  They made the title and content both have 8px bottom margin
+*/
+
 body {
   background: #eee;
   font-family: sans-serif;
@@ -7,21 +11,37 @@ body {
   width: 400px;
   background: #fff;
   margin: 16px auto;
+  /* CHANGES */
+  padding: 8px;
 }
 
 .title {
   background: #e3f4ff;
+  /* CHANGES */
+  font-size: 16px;
+  padding: 8px;
+  margin: 0;
 }
 
 .content {
   background: #e3f4ff;
+  /* CHANGES */
+  padding: 16px 8px;
+  margin: 8px auto;
 }
 
 .button-container {
   background: #e3f4ff;
+  /* CHANGES */
+  text-align: center;
+  padding: 8px;
 }
 
 button {
   background: white;
   border: 1px solid #eee;
+  /* CHANGES */
+  margin: 0 auto;
+  display: block;
+  padding: 8px 24px;
 }
