@@ -23,3 +23,41 @@ a {
   /* this removes the line under the links */
   text-decoration: none;
 }
+
+/* My Added stuff */
+
+.header {
+  padding: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* header is the only one that needs these properties */
+/* .header, .left-links, .right-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: verdana, serif;
+} */
+
+ul {
+  display: flex;
+  /* dont need this */
+  /* align-items: center; */
+  gap: 8px;
+  padding: 0;
+  /* didnt add this */
+  margin: 8px;
+}
+
+
+/* This isnt needed */
+
+/* .left-links ul {
+  justify-content: flex-start;
+}
+
+.right-links ul {
+  justify-content: flex-end;
+} */

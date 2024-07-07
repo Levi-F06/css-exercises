@@ -46,3 +46,41 @@ a {
 ul {
   list-style-type: none;
 }
+
+/* My added stuff */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  /* dont need this */
+  /* align-items: center; */
+  /* didnt add this */
+  padding: 8px;
+}
+/* they used ul instead but oh well */
+.links {
+  display: flex;
+  /* not needed */
+  /* justify-content: space-between; */
+  /* originaly had 10px gap */
+  gap: 16px;
+  /* didnt add this */
+  margin: 0;
+  padding: 0;
+}
+
+.left, .right {
+  display: flex;
+  /* not needed */
+  /* justify-content: space-between; */
+  /* margin: 8px; */
+  align-items: center;
+  /* didnt include this */
+  gap: 16px;
+  
+}
+
+/* not needed */
+/* .right {
+  gap: 8px;
+} */

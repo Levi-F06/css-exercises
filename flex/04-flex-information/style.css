@@ -24,3 +24,28 @@ img {
   justify-content: center;
   background: #eee;
 }
+
+/* my added stuff */
+
+/* instead of putting text-align twice i shouldve done this */
+
+body {
+  text-align: center;
+}
+
+.title {
+  /* text-align: center; */
+  margin-bottom: 32px;
+}
+
+.plants {
+  display: flex;
+  gap: 52px;
+  justify-content: center;
+}
+
+.plant {
+  /* i put just width */
+  max-width: 200px;
+  /* text-align: center; */
+}

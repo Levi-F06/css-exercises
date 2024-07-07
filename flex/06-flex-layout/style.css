@@ -24,3 +24,73 @@ input {
   padding: 8px 24px;
   width: 400px;
 }
+
+/* My added stuff */
+
+ul {
+  padding: 0;
+  margin: 0
+}
+
+li {
+  list-style-type: none;
+  font-size: 14px;  
+}
+
+a {
+  text-decoration: none;
+  /* colour picker showed me #828282 */
+  color: #666;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  /* not needed? */
+  /* align-items: center; */
+  /* justify-content: space-between; */
+}
+
+.header, .footer {
+  display: flex;
+  justify-content: space-between;
+  /* not needed */
+  /* width: 100vw; */
+  /* I put 8px */
+  padding: 16px;
+}
+
+/* I couldve put all of this in ul but this is more specific imo */
+.left-links, .right-links {
+  display: flex;
+  gap: 16px;
+  /* not needed */
+  /* margin: 8px 16px; */
+}
+
+.footer {
+  background-color: #eeeeee;
+}
+
+.content {
+  flex: 1;
+  /* idk why i need this */
+  /* i see how its kinda better than space between in the body but dosent it do the same thing? */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* didnt add this */
+  justify-content: center;
+  /* or this */
+  gap: 16px;
+}
+
+/* not needed cause of gap added above */
+/* .input {
+  margin-bottom: 16px;
+} */
+
+button {
+  /* i just put 8px for all dimensions */
+  padding: 8px 16px;
+}

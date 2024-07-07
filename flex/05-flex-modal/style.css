@@ -67,3 +67,37 @@ button.cancel {
   border: 1px solid #ddd;
   color: royalblue;
 }
+
+/* my added stuff */
+
+.modal {
+  padding: 16px;
+  display: flex;
+  /* not needed */
+  /* justify-content: space-between; */
+  gap: 16px;
+}
+
+.title {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* instead of having gaps and because of less divs they used margins instead (noobs) */
+
+.header {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.icon {
+  flex-shrink: 0;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+  gap: 8px;
+}
+

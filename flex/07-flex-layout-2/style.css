@@ -27,3 +27,75 @@ body {
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
 }
+
+/* My added stuff */
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  font-size: 32px;
+  font-weight: 900;
+  display: flex;
+  align-items: center;
+  /* i just did padding left */
+  padding: 0 16px;
+}
+
+.content {
+  flex: 1;
+  display: flex;
+}
+
+.sidebar {
+  flex-shrink: 0;
+  /* not needed? */
+  /* flex-basis: 300px; */
+  padding: 16px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  /* originally put this in sidebar still worked */
+  font-size: 24px;
+
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  /* not needed use margin bottom instead ig */
+  /* display: flex;
+  flex-direction: column;
+  gap: 16px; */
+}
+
+/* didnt have this because i had it in ul */
+
+li {
+  margin-bottom: 16px;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 48px;
+  /* had the gap as 16px originally */
+  gap: 32px;
+}
+
+.card {
+  width: 300px;
+  /* had padding as 8px originally */
+  padding: 16px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
